@@ -1,2 +1,10 @@
-# COMP2001-Worksheets
-Clone this repo to set up the structure for working through the worksheets for the COMP2001 module.
+# ProfileService (CW2)
+
+## Description
+ProfileService is a FastAPI microservice for the Trail Application.
+It manages user profiles and enforces role-based access control using JWT authentication.
+
+## How to run (Docker)
+```bash
+docker pull nikkobaes/profileservice:cw2
+docker run -p 8000:8000 nikkobaes/profileservice:cw2
